@@ -8,14 +8,14 @@ require 'libs/Youtube.php';
 use Smoqadam\Telegram;
 use Smoqadam\Youtube;
 
-$api_token = 'API_TOKEN';
+$api_token = '1498613767:AAHY_7MCd4k4F-yprxyfm5dx_-9S_J9TMio';
 
-$tg = new Telegram($api_token);
+$tg = new Telegram($1498613767:AAHY_7MCd4k4F-yprxyfm5dx_-9S_J9TMio);
 $y = new Youtube();
 
 
 /**
- * download a video by video Id
+ * download a video by video Id 
  */
 $tg->cmd('vid:<<:any>>', function ($video_id, $option) use ($tg, $y, $message) {
 
