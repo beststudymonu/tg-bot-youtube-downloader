@@ -5,12 +5,12 @@ $message = file_get_contents('php://input');
 require 'libs/Telegram.php';
 require 'libs/Youtube.php';
 
-use Smoqadam\Telegram;
-use Smoqadam\Youtube;
+use Smoqadam\Telegram;1498613767:AAHY_7MCd4k4F-yprxyfm5dx_-9S_J9TMio
+use Smoqadam\Youtube;1498613767:AAHY_7MCd4k4F-yprxyfm5dx_-9S_J9TMio
 
-$api_token = 'API_TOKEN';
+$api_token = '1498613767:AAHY_7MCd4k4F-yprxyfm5dx_-9S_J9TMio';
 
-$tg = new Telegram($api_token);
+$tg = new Telegram($api_token);1498613767:AAHY_7MCd4k4F-yprxyfm5dx_-9S_J9TMio
 $y = new Youtube();
 
 
